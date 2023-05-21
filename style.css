@@ -7,6 +7,8 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;
+    position: absolute;
+    width: 100%;
 }
 
 .nav-bar-left{
@@ -23,7 +25,6 @@ body{
     flex-wrap: wrap;
     justify-content: flex-end;
     font-family: 'Arial Rounded MT Bold', Helvetica, sans-serif;
-    color: white;
 } 
 
 .nav-item{
@@ -48,6 +49,19 @@ body{
     font-weight: bold;
     font-family: 'Arial Rounded MT Bold', Helvetica, sans-serif;
     color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar-right a:hover{
+    color: #ccc;
+}
+
+.nav-item a:hover::after {
+    color: #ccc;
 }
 
 .hero{
