@@ -1,6 +1,9 @@
 body{
     margin: 0;
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    width:100%;
 }
 
 .nav-bar{
@@ -68,12 +71,38 @@ a {
 .hero{
     display: flex;
     background-color: #1F2937;
-    flex-direction: column;
-    height: 200px;
+    padding-top: 90px;
+    padding-right: 90px;
+    padding-left: 90px;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Arial Rounded MT Bold', Helvetica, sans-serif;
+    align-items: center;
 }
-
-.header-left{
+.hero-image{
+    height: 300px;
+    width: 400px;
+}
+.hero-left{
     color: #F9FAF8;
+    display: flex;
+    width: 300px;
+    flex: 1;
+    flex-direction: column;
+}
+.hero-title{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+}
+.hero-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
 }
