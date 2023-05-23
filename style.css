@@ -37,7 +37,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .nav-image{
@@ -57,14 +56,11 @@ body{
 
 a {
     text-decoration: none;
-    color: white;
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 .nav-bar-right a:hover{
-    color: #ccc;
-}
-
-.nav-item a:hover::after {
     color: #ccc;
 }
 
@@ -98,6 +94,10 @@ a {
     font-weight: bold;
     text-align: center;
     display: flex;
+}
+
+.hero-subtext{
+    font-size: 24px;
 }
 .hero-right{
     display: flex;
