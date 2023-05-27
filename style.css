@@ -68,16 +68,12 @@ a {
 .hero{
     display: flex;
     background-color: #1F2937;
-    padding-top: 90px;
-    padding-right: 90px;
-    padding-left: 90px;
-    flex-wrap: wrap;
-    flex: 1;
+    padding: 90px;
     justify-content: space-evenly;
-    width: 100%;
     box-sizing: border-box;
     font-family: 'Arial Rounded MT Bold', Helvetica, sans-serif;
     align-items: center;
+    overflow-wrap: column;
 }
 .hero-image{
     height: 300px;
@@ -91,6 +87,7 @@ a {
     width: 300px;
     flex: 1;
     flex-direction: column;
+    flex-basis: 400px;
 }
 .hero-title{
     font-size: 48px;
@@ -116,10 +113,8 @@ a {
 
 .hero-right{
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
-    width: 300px;
 }
 
 .boxes{
