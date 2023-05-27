@@ -68,8 +68,8 @@ a {
 .hero{
     display: flex;
     background-color: #1F2937;
-    padding: 90px;
-    justify-content: space-evenly;
+    padding: 80px;
+    justify-content: space-between;
     box-sizing: border-box;
     font-family: 'Arial Rounded MT Bold', Helvetica, sans-serif;
     align-items: center;
