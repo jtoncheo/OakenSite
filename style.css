@@ -60,7 +60,7 @@ a {
     color: #E5E7EB
 }
 
-.nav-bar-right a:hover{
+.hero-button, .nav-bar-right a:hover{
     color: #ccc;
 }
 
@@ -103,9 +103,12 @@ a {
     background-color: #3882F6;
     color: #F9F1F8;
     border-radius: 12px;
-    height: 20px;
-    width: 80px;
-
+    height: 40px;
+    width: 140px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .hero-right{
@@ -114,4 +117,39 @@ a {
     justify-content: center;
     align-items: center;
     width: 300px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+.boxes-row-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #1F2937;
+    font-family: 'Arial Rounded MT Bold', Helvetica, sans-serif;
+}
+.boxes-row-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family: 'Arial Rounded MT Bold', Helvetica, sans-serif;
+}
+
+.column1, .column2, .column3, .column4{
+    flex-direction: column;
+    text-align: center;
+}
+
+.sqimg{
+    height: 200px;
+    width: 200px;
+    border: #3882F6;
+    border-width: 5px;
 }
