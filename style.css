@@ -68,12 +68,10 @@ a {
 .hero{
     display: flex;
     background-color: #1F2937;
-    padding: 80px;
-    justify-content: space-between;
+    padding: 90px;
     box-sizing: border-box;
     font-family: 'Arial Rounded MT Bold', Helvetica, sans-serif;
     align-items: center;
-    overflow-wrap: column;
 }
 .hero-image{
     height: 300px;
@@ -84,15 +82,15 @@ a {
 .hero-left{
     color: #F9FAF8;
     display: flex;
-    width: 300px;
-    flex: 1;
     flex-direction: column;
-    flex-basis: 400px;
+    align-items: flex-start;
+    margin-right: 50px;
 }
+
 .hero-title{
     font-size: 48px;
     font-weight: bold;
-    text-align: center;
+    text-align: start;
     display: flex;
 }
 
